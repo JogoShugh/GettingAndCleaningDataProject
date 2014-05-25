@@ -1,4 +1,4 @@
-# On my own machine: setwd("C:\\Projects\\github\\Coursera\\Work\\GettingAndCleaningDataProject\\getdata-projectfiles-UCI HAR Dataset\\UCI HAR Dataset")
+# On my own box: setwd("C:\\Projects\\github\\Coursera\\Work\\GettingAndCleaningDataProject\\getdata-projectfiles-UCI HAR Dataset\\UCI HAR Dataset")
 
 # First, create a table with the column names
 features <- read.table("features.txt", col.names=c("num", "feature"), stringsAsFactors=F)
